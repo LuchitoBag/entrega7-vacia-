@@ -1,0 +1,82 @@
+
+.menu{
+  background-color:rgba(61, 61, 61, 0.568);
+  text-align:center;
+  border-radius: 20px;
+  position:absolute;
+  right: 150px;
+  height: 50px;
+  padding: 30px 50px;
+  font-family: 'Oswald', sans-serif;
+}
+.esla{
+  margin-left: 1px;
+  width: 150px;
+  height: 150px;
+}
+
+.dropdown-item:hover{
+  background-color:rgba(233, 69, 197, 0.651);
+  color: black;
+  border-radius: 10px 15px;
+  border-color:black, 2px ;
+
+}
+ 
+
+.fa-shopping-cart{
+  font-size: 38px;
+  color:black;
+  border-radius: 10px 15px;
+  background-color:rgba(61, 61, 61, 0.568);
+  position:absolute;
+  left: 110%;
+  padding: 8px 15px;
+ 
+  
+}
+.fa-shopping-cart:hover{
+  background-color:rgba(233, 69, 197, 0.651);
+
+}
+.buzos{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  border-radius: 10px 15px;
+  padding: 5px 20px;
+  font-family: 'Oswald', sans-serif;
+}
+.buzos:hover{ background-color:rgba(233, 69, 197, 0.651);
+  color: black;
+  border-radius: 10px 15px;
+  border-color:black, 2px ;}
+
+
+.remeras{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  border-radius: 10px 15px;
+  padding: 5px 20px;
+  font-family: 'Oswald', sans-serif;
+  list-style: none;
+
+}
+.remeras:hover{
+  background-color:rgba(233, 69, 197, 0.651);
+  color: black;
+  border-radius: 10px 15px;
+  border-color:black, 2px ;
+  
+}
+.Link{
+  text-decoration: none;
+}
+
+.buzos2{
+  text-decoration: none;
+}
+.remeras2{
+  text-decoration: none;
+}

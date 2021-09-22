@@ -1,0 +1,23 @@
+.ItemList{
+margin: 50px auto;
+width: 90%;
+padding: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+display: flex;
+text-align: center;
+background-color: white;
+}
+.btn-outline-primary{
+    background-color:rgba(61, 61, 61, 0.568);
+    color: black;
+    border-color:black;
+}
+.btn-outline-primary:hover{
+    background-color: rgba(233, 69, 197, 0.651);
+    border-color:black;
+}
+.card-header{
+    background-color:rgba(61, 61, 61, 0.568);
+}
