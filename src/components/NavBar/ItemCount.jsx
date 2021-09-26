@@ -1,8 +1,8 @@
 import { useState }  from 'react'
 import { Link } from 'react-router-dom'
 
-export const ItemCount = ({stock, initial, onAdd}) => {
-    const [count, setCount] = useState(initial)
+export const ItemCount = props => {
+    const [count, setCount] = useState(props.initial)
     const[cambiarBoton,setCambiarBoton] = useState(true)
     
     function sumar (){
@@ -12,17 +12,15 @@ export const ItemCount = ({stock, initial, onAdd}) => {
     function restar(){
         setCount(count -  1)
     }
-    const agregarCarrito= ()=> {
-        onAdd(count)
+
+    const agregarCarrito = () => {
+        props.setCantidadSeleccionada(count)
         setCambiarBoton (false)
+        console.log(props)
     }    
-
-
-    
 
     return (
         <div>
-
             <button onClick={sumar}>+</button>
             <label>{count}</label>
             <button onClick={restar}>-</button><br/>
@@ -37,19 +35,8 @@ export const ItemCount = ({stock, initial, onAdd}) => {
                 <button>Seguir Comprando</button>
                 </Link>
                 </div>    
-        
-        
         }
-        
-
          </div>
-        
-
-        
-
-
     )
-
-    
 }
 export default ItemCount

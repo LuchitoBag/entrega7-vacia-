@@ -12,8 +12,8 @@ const Item = ({producto}) => {
                   <img src={producto.picture} className="Imagen1"/>
                   </div>  
                 <div className="card-footer">
-                <Link to={`/detalle/${producto.id}`}>
-                    <button className="btn btn-outline-primary btn-block">Detalles</button>
+                <Link to={`/detalle/${producto.id}`} className="btn btn-outline-primary btn-block">
+                 Detalles
                </Link>
                 </div>
                 <div> <ItemCount initial={1} stock={5} /> </div>
